@@ -22,9 +22,10 @@
 }
 
 .zonzelf-content img {
-    width: 50%;
-    margin: 0 0 20px 20px;
+    width: 40%;
+    margin: 0 0 10px 10px;
     float: right;
+    clear: both;
 }
 
 .zonzelf-content a img {
@@ -33,4 +34,10 @@
     width: auto;
     display: inline-block;
     height: 120px;
+}
+
+.energie-van-de-boer-content img {
+    width: 40%;
+    margin: 0 0 10px 10px;
+    float: right;
 }
