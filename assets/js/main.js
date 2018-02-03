@@ -8,7 +8,9 @@ $(function () {
         autoWidth: true
     });
 
-    
+    $('a[href]').filter(function(){
+        return /\.pdf$/i.test($(this).attr('href'));
+     }).addClass('pdf-file-link')
 });
 
 $( window ).on('load', function() {

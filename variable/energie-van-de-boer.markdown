@@ -3,7 +3,8 @@ title: Energie van de boer
 date: 2018-02-03 19:49:00 Z
 ---
 
-## Energie van de Boer
+## Energie van de Boer 
+
 ### LAAT JE GROENE HART SPREKEN & DOE MEE!
 
 Bijdragen aan een beter milieu? Op zoek naar regionaal opgewekte groene stroom? Vanaf 2017 is er regionaal opgewekte groene stroom beschikbaar voor huishoudens in en om Hank. Op dit moment zoekt DEcAB deelnemers, die nu mee willen investeren in de zonnepanelen en die straks mee willen profiteren van de voordelen van groene stroom uit de buurt.

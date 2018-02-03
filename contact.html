@@ -5,7 +5,12 @@ layout: page
 type: static
 ---
 
-<div class="container">
-    {% markdown variable/contact.markdown %}
+<div class="container variable-content contact-content">
+    <h4>{{ site.volledige-titel }}</h4>
+    <p>Bezoekadres: {{ site.bezoek-adres }}</p>
+    <p>Emailadres: <a href="mailto:{{site.email}}">{{site.email}}</a></p>
+    <p>Website: {{site.url}}</p>
+    <p>Telefoon: {{site.phone}}</p>
+    <p>Bankrekening: {{site.iban}}</p>
 </div>
     
