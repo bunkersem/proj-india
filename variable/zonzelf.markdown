@@ -3,6 +3,10 @@ title: ZonZelf - zonnepanelen op eigen dak
 date: 2018-02-03 19:46:00 Z
 ---
 
+![ZonZelf.png](/uploads/ZonZelf.png)
+
+![p1020563.jpg](/uploads/p1020563.jpg)
+
 ## ZonZelf - zonnepanelen op eigen dak
 
 Stroom van eigen dak
