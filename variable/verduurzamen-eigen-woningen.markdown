@@ -9,4 +9,4 @@ Als u maatregelen wil treffen, dan kan dat met behulp van geselecteerde bedrijve
 
 Wilt u advies met een persoonlijk gesprek, dan komt Maaike Wolfs bij u langs. Zij beoordeelt uw woning en u gezinssituatie. Samen met u geeft ze aan welke maatregelen u kunt treffen. Is de keuze gemaakt? Dan kunnen we u weer verder helpen met de keuze van de aannemer. Een adviesgesprek is beschikbaar € 100 voor leden van DEcAB. U kunt voor € 12,50 lid worden en zo gebruik maken van deze service.
 
-Interesse? stuur en mail naar info@decab.org.
+Interesse? stuur en mail naar [info@decab.org](mailto:info@decab.org).
