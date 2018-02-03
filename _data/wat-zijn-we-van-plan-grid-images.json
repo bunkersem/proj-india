@@ -1,0 +1,27 @@
+[
+    {
+        "width": 1448,
+        "height": 1312,
+        "filename": "grid-item-1.jpg"
+    },
+    {
+        "width": 1296,
+        "height": 968,
+        "filename": "grid-item-2.jpg"
+    },
+    {
+        "width": 1700,
+        "height": 1129,
+        "filename": "grid-item-3.jpg"
+    },
+    {
+        "width": 286,
+        "height": 176,
+        "filename": "grid-item-4.jpg"
+    },
+    {
+        "width": 298,
+        "height": 169,
+        "filename": "grid-item-5.jpg"
+    }
+]

@@ -1,0 +1,18 @@
+---
+title: Wat zijn we van plan
+permalink: "/wat-doet-decab/wat-zijn-we-van-plan/"
+layout: page
+type: static
+---
+
+<div class="container">
+    <div class="grid" id="wat-zijn-we-van-plan-grid">
+        <!-- do not use banner in Masonry layout -->
+        {% for item in site.data.wat-zijn-we-van-plan-grid-images %}
+            <img class="grid-item" src="{{ "/assets/img/wat-zijn-we-van-plan/" | append: item.filename | absolute_url }} " 
+                alt="Wat zijn we van plan grid afbeelding">
+        {% endfor %}
+        <div class="grid-item"></div>
+    </div>
+    {% markdown variable/wat-zijn-we-van-plan.markdown %}
+</div>

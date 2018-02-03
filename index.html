@@ -1,0 +1,25 @@
+---
+title: Home
+layout: home
+list_title: Nieuws
+type: static
+---
+
+<section class="intro-banner" id="home-intro-banner">
+    <div class="owl-carousel owl-theme">
+        {% for i in (1..5) %}
+            <div class="item">
+                <img src="{{ "/assets/img/home-slider/home-slider-" | append: i | append: ".jpg" | absolute_url }} " alt="DEcAB intro afbeelding" >
+                <!-- <h4>1</h4> -->
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="variable-content home-text container">
+    {% markdown variable/home.markdown %}
+    <div id="home-after-content-bottons">
+        <a class="btn btn-success" href="{{ "/wat-doet-decab/wat-zijn-we-van-plan" | relative_url }}">Lees meer</a>
+        <a class="btn btn-warning" href="{{ "/lid-worden" | relative_url }}">Lid worden van DEcAB</a>
+    </div>
+</section>

@@ -1,0 +1,25 @@
+---
+title: DEcAB
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+tags: duurzame energie altena biesbosch coöperatie zonnepanelen
+phone: '0183- 200107'
+iban: NL67 TRIO 0254 8507 15
+email: info@decab.org
+description: Duurzame Energie coöperatief Altena Biesbosch U.A. (DEcAB) zet zich in
+  voor méér gebruik en productie van duurzame energie in het gebied Altena Biesbosch.
+  Daarmee wil de coöperatie een bijdrage leveren aan een beter klimaat
+baseurl: 
+url: 
+facebook_username: DEcABDuurzameEnergie
+twitter_username: DEcAB2012
+markdown: kramdown
+theme: minima
+plugins:
+- jekyll-feed

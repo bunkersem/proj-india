@@ -1,0 +1,23 @@
+#wat-zijn-we-van-plan-grid .grid-item {
+    max-width: 25%;
+    padding: 5px;
+}
+
+@media (max-width: 1200px) {
+    #wat-zijn-we-van-plan-grid .grid-item {
+        max-width: 33.3%;
+    }
+}
+
+@media (max-width: 992px) {
+    #wat-zijn-we-van-plan-grid .grid-item {
+        max-width: 49.7%;
+    }
+}
+
+@media (max-width: 768px) {
+    #wat-zijn-we-van-plan-grid .grid-item {
+        max-width: 100%;
+    }
+}
+

@@ -1,0 +1,32 @@
+@import "home";
+@import "wat-doet-decab";
+
+
+body {
+    padding-top: 50px; // navbar offset
+    position: relative;
+    min-height: 100vh;
+}
+
+.svg-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.6em;
+    height: 1.6em;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+.copyright-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    padding-bottom: 50px;
+}
