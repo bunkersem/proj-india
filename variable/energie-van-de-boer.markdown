@@ -3,6 +3,8 @@ title: Energie van de boer
 date: 2018-02-03 19:49:00 Z
 ---
 
+![Decab_brochure.png](/uploads/Decab_brochure.png)
+
 ## Energie van de Boer
 
 ### LAAT JE GROENE HART SPREKEN & DOE MEE!
