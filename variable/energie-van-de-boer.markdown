@@ -3,6 +3,8 @@ title: Energie van de boer
 date: 2018-02-03 19:49:00 Z
 ---
 
+![Decab_brochure.png](/uploads/Decab_brochure.png)
+
 ## Energie van de Boer
 
 ### LAAT JE GROENE HART SPREKEN & DOE MEE!
@@ -35,7 +37,7 @@ Het begint met de winst voor het milieu. Voor gewone stroom betaalt u gemiddeld 
 
 ### Meer informatie of meedoen?
 
-Mail naar info@decab.org, dan nemen wij contact met u op.
+Mail naar [info@decab.org](mailto:info@decab.org), dan nemen wij contact met u op.
 
 Akkerbouwer Justin Leemans stelt zijn schuur beschikbaar.
 Samen met zijn vriendin Manon is hij blij dat hij wat kan
