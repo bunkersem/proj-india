@@ -35,7 +35,7 @@ Het begint met de winst voor het milieu. Voor gewone stroom betaalt u gemiddeld 
 
 ### Meer informatie of meedoen?
 
-Mail naar info@decab.org, dan nemen wij contact met u op.
+Mail naar [info@decab.org](mailto:info@decab.org), dan nemen wij contact met u op.
 
 Akkerbouwer Justin Leemans stelt zijn schuur beschikbaar.
 Samen met zijn vriendin Manon is hij blij dat hij wat kan
