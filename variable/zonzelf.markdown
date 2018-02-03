@@ -29,11 +29,13 @@ Omdat er minder fossiele brandstof voor de opwek van stroom nodig is, levert u e
 Onderaan de pagina vindt u het formulier waarmee u kunt aangeven dat u een offerte wilt hebben voor de aanschaf van zonnepanelen. U kunt het digitaal invullen en versturen. U kunt ook het pdf-document 'formulier aanmelding ZonZelf' uitprinten, invullen en per post versturen. U krijgt dan offertes van tibo-veen en Coro.
 Een medewerker van de installatiebedrijven komt bij u langs om de situatie op te nemen, zodat er een maatwerkplan en een maatwerkofferte gemaakt kunnen worden. Geef aan hem ook het jaarlijkse stroomverbruik op.
 
-
 ## Aanmelding voor ZonZelf
+
 Onderaan de pagina staat een formulier dat u digitaal kunt invullen en versturen.
 Het is ook mogelijk om het document 'ZonZelf aanmeldformulier' uit te printen en per post te versturen.
 
 Digitaal aanmelden voor ZonZelf:
 
 ## Aanmeldingsformulier ZonZelf
+
+[Formulier-aanmelding-ZonZelf-v.a.-november-2015.pdf](/uploads/Formulier-aanmelding-ZonZelf-v.a.-november-2015.pdf)
