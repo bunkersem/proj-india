@@ -25,10 +25,6 @@ date: 2018-02-03 21:51:00 Z
 
 * Ik ben \*
 
-* Particulier \*
-
-* Ondernemer \*
-
 * Bedrijfsnaam
 
 * Ik gebruik jaarlijks ongeveer \*

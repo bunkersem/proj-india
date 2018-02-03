@@ -30,3 +30,9 @@ body {
 footer {
     padding-bottom: 50px;
 }
+
+.pdf-file-link::before {
+    content: "\f1c1";
+    font-family: "FontAwesome";
+    margin-right: 3px;
+}

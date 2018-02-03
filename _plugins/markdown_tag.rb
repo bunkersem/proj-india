@@ -6,7 +6,7 @@ module Jekyll
     end
     require "kramdown"
     def render(context)
-      "#{Kramdown::Document.new(File.read(File.join(Dir.pwd, @text)).sub(/---.*---/im, '')).to_html.force_encoding(::Encoding::UTF_8)}"
+      "#{Kramdown::Document.new(File.read(File.join(Dir.pwd, @text)).sub(/---.*?---/im, '')).to_html.force_encoding(::Encoding::UTF_8)}"
     end
   end
 end

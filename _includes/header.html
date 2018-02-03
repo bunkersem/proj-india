@@ -33,7 +33,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ item.page }} <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             {% for sub in item.subfolderitems %}
-                                {% if item == "seperator" %}
+                                {% if sub == "seperator" %}
                                     <li role="separator" class="divider"></li>
                                 {% else %}
                                     <li><a href="{{ sub.url }}">{{ sub.page }}</a></li>

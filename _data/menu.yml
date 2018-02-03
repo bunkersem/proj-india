@@ -4,10 +4,12 @@ root:
     subfolderitems:
       - page:  Wat zijn we van plan
         url: /wat-doet-decab/wat-zijn-we-van-plan
+      - seperator
       - page: ZonZelf  
         url: /wat-doet-decab/zonzelf
       - page: ZonGemak
         url: /wat-doet-decab/zongemak
+      - seperator
       - page: Verduurzamen eigen woningen
         url: /wat-doet-decab/verduurzamen-eigen-woningen
       - page: Energie van de Boer
