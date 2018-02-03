@@ -1,7 +1,6 @@
 ---
 title: ZonZelf - zonnepanelen op eigen dak
 date: 2018-02-03 19:46:00 Z
-published: false
 ---
 
 ## ZonZelf - zonnepanelen op eigen dak
