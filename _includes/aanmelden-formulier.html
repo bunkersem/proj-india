@@ -1,81 +1,107 @@
-<form id="zonzelf-form" action="https://getsimpleform.com/messages?form_api_token=bb0d533cd195e0f706ac34ba4c7c5203" method="post">
+<form id="aanmelden-form" data-parsley-validate="" action="https://getsimpleform.com/messages?form_api_token=bb0d533cd195e0f706ac34ba4c7c5203" method="post">
     <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
     
+    <div class="bs-callout bs-callout-warning hidden">
+        <h4>Ongeldig!</h4>
+        <p>Het formulier is niet geldig</p>
+    </div>
+        
+    <div class="bs-callout bs-callout-info hidden">
+        <h4>Geldig!!</h4>
+        <p>Het formulier is geldig</p>
+    </div>
+
     <div class="form-part1">
         <h3>Algemene gegevens</h3>
         <div class="form-group">
             <label for="voorletters">Voorletters *</label>
             <div class="form-input">
-                <input class="form-control" name="voorletters" id="voorletters" type="text" maxlength="10">
+                <input class="form-control" name="voorletters" id="voorletters" type="text" maxlength="10" 
+                required data-parsley-maxlength="10" data-parsley-minlength-message="Maximum van 10 characters"
+                data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="tussenvoegsel">Tussenvoegsel</label>
             <div class="form-input">
-                <input class="form-control" name="tussenvoegsel" id="tussenvoegsel" type="text">
+                <input class="form-control" name="tussenvoegsel" id="tussenvoegsel" type="text"
+                data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="achternaam">Achternaam *</label>
             <div class="form-input">
-                <input class="form-control" name="achternaam" id="achternaam" type="text">
+                <input class="form-control" name="achternaam" id="achternaam" type="text" 
+                required data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="adres">Adres *</label>
             <div class="form-input">
-                <input class="form-control" name="adres" id="adres" type="text">
+                <input class="form-control" name="adres" id="adres" type="text" 
+                required data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="huisnummer">Huisnummer *</label>
             <div class="form-input">
-                <input class="form-control" name="huisnummer" id="huisnummer" type="text">
+                <input class="form-control" name="huisnummer" id="huisnummer" type="text" 
+                required data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="postcode">Postcode *</label>
             <div class="form-input">
-                <input class="form-control" name="postcode" id="postcode" type="text">
+                <input class="form-control" name="postcode" id="postcode" type="text" 
+                required data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="plaats">Plaats *</label>
             <div class="form-input">
-                <input class="form-control" name="plaats" id="plaats" type="text">
+                <input class="form-control" name="plaats" id="plaats" type="text" 
+                required data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="telefoon">Telefoon</label>
             <div class="form-input">
-                <input class="form-control" name="telefoon" id="telefoon" type="text">
+                <input class="form-control" name="telefoon" id="telefoon" type="text"
+                data-parsley-pattern="^[ \d-]+$" data-parsley-pattern-message="Vul een geldig telefoon nummer in"
+                data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="mobiel">Mobiel</label>
             <div class="form-input">
-                <input class="form-control" name="mobiel" id="mobiel" type="text">
+                <input class="form-control" name="mobiel" id="mobiel" type="text"
+                data-parsley-pattern="^[ \d-]+$" data-parsley-pattern-message="Vul een geldig telefoon nummer in"
+                data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
-            <label for="emailadres">E-mailadres</label>
+            <label for="emailadres">E-mailadres *</label>
             <div class="form-input">
-                <input class="form-control" name="emailadres" id="emailadres" type="text">
+                <input class="form-control" name="emailadres" id="emailadres" type="email" 
+                required data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label>Ik ben *</label>
             <div class="form-input">
                 <small>Particulier *</small>
-                <input type="radio" id="ikben1" name="ikben" value="Particulier">
+                <input type="radio" id="ikben1" name="ikben" value="Particulier" 
+                required data-parsley-trigger="change">
                 <small>Ondernemer *</small>
-                <input type="radio" id="ikben2" name="ikben" value="Ondernemer">
+                <input type="radio" id="ikben2" name="ikben" value="Ondernemer" 
+                required data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="bedrijfsnaam">Bedrijfsnaam</label>
             <div class="form-input">
-                <input class="form-control" name="bedrijfsnaam" id="bedrijfsnaam" type="text">
+                <input class="form-control" name="bedrijfsnaam" id="bedrijfsnaam" type="text"
+                data-parsley-trigger="change">
             </div>
         </div>
     </div>
@@ -84,19 +110,22 @@
         <div class="form-group">
             <label for="stroomgebruik">Ik gebruik jaarlijks ongeveer *</label>
             <div class="form-input">
-                <input class="form-control" name="stroomgebruik" id="stroomgebruik" type="text">
+                <input class="form-control" name="stroomgebruik" id="stroomgebruik" type="text" 
+                required data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="stroomhoogtarief">Indien van toepassing</label>
             <div class="form-input">
-                <input class="form-control" name="stroomhoogtarief" id="stroomhoogtarief" type="text">
+                <input class="form-control" name="stroomhoogtarief" id="stroomhoogtarief" type="text"
+                data-parsley-trigger="change">
             </div>
         </div>
         <div class="form-group">
             <label for="stroomlaagtarief">Indien van toepassing</label>
             <div class="form-input">
-                <input class="form-control" name="stroomlaagtarief" id="stroomlaagtarief" type="text">
+                <input class="form-control" name="stroomlaagtarief" id="stroomlaagtarief" type="text"
+                data-parsley-trigger="change">
             </div>
         </div>
     </div>
@@ -105,14 +134,16 @@
         <div class="form-group">
             <label for="bankrekeningnummer">Bankrekeningnummer *</label>
             <div class="form-input">
-                <input class="form-control" name="bankrekeningnummer" id="bankrekeningnummer" type="text">
+                <input class="form-control" name="bankrekeningnummer" id="bankrekeningnummer" type="text" 
+                required data-parsley-trigger="change">
             </div>
         </div>
     </div>
     <div class="form-part4">
         <h3>Lidmaatschap</h3>
         <div class="form-group">
-            <input type="checkbox" name="lidmaatschap" id="lidmaatschap" type="text">
+            <input type="checkbox" name="lidmaatschap" id="lidmaatschap" type="text" 
+            required  data-parsley-trigger="change">
             <label for="lidmaatschap">Ik ben lid van DEcAB</label>
         </div>
     </div>
@@ -121,6 +152,6 @@
     </button>
 </form>
 
-<script type="text/html" id="zonzelf-form-names">
+<script type="text/html" id="aanmelden-form-names">
     {% include variable-content.html file="_client_collection/aanmelden-formulier.markdown" %}
 </script>
