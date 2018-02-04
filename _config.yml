@@ -3,7 +3,7 @@ title: DEcAB
 timezone: UTC
 collections:
   client_collection:
-    title: My collection
+    title: Pagina inhoud
   posts:
     title: Posts
     output: true
