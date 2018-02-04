@@ -1,0 +1,11 @@
+{% assign author = site.people | where:"id", page.author-id  | first %}
+
+{% capture content %}
+{{ site.client_collection | where: "path", include.file }}
+{% endcapture %}
+{% if include.one_line  %}
+{{ content | newline_to_br }}
+{% else %}
+{{ content }}
+{% endif %}
+

@@ -2,6 +2,8 @@
 title: DEcAB
 timezone: UTC
 collections:
+  client_collection:
+    title: My collection
   posts:
     title: Posts
     output: true
