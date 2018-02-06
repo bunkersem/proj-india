@@ -2,4 +2,7 @@
 
 # Allow crawling of all content
 User-agent: *
-Disallow: /variable
+Disallow: 
+/variable
+/aangemeld
+/aangemeld.html

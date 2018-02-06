@@ -10,10 +10,6 @@ $(function () {
     $('a[href]').filter(function () {
         return /\.pdf$/i.test($(this).attr('href'));
     }).addClass('pdf-file-link').attr('target', '_blank');
-    var comp = new RegExp(location.host);
-    $('a[href]').filter(function () {
-        return comp.test($(this).attr('href'));
-    }).attr('target', '_blank');
 });
 
 // wat zijn we van plan afbeeldingen masonry
@@ -60,15 +56,15 @@ var parsleyOptions = {
     errorTemplate: "<span></span>"
 };
 
-// aanmelden form validation
+// "aanmelden form" validation
 $(function () {
     $('#aanmelden-form').parsley(parsleyOptions).on('field:validated', function () {
-        var ok = $('.parsley-error').length === 0;
+        var ok = $('.has-error').length === 0;
         $('.bs-callout-info').toggleClass('hidden', !ok);
         $('.bs-callout-warning').toggleClass('hidden', ok);
     })
     .on('form:submit', function () {
-        return false; // Don't submit form for this demo
+        return $('.has-error').length === 0; // submit if no error
     });
 });
 

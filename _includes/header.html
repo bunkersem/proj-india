@@ -36,14 +36,14 @@
                                 {% if sub == "seperator" %}
                                     <li role="separator" class="divider"></li>
                                 {% else %}
-                                    <li><a href="{{ sub.url }}">{{ sub.page }}</a></li>
+                                    <li><a href="{{ sub.url | absolute_url }}">{{ sub.page }}</a></li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
                     </li>
                     {% else %}
                     <li class="{% if page.url contains item.url %}active{% endif %}">
-                        <a href="{{ item.url }}">
+                        <a href="{{ item.url | absolute_url }}">
                             {{ item.page }} {% if page.url contains item.url %}<span class="sr-only">(current)</span>{% endif %}
                         </a>
                     </li>
